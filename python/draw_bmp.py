@@ -3,7 +3,7 @@ from time import sleep
 
 
 def get_bmp_data_v2():
-    filepath = 'smbb_data_gaussian.txt'
+    filepath = 'smbb_data.txt'
     f = open(filepath)
     bmp_data = []
     for line in f:
